@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47A9E1A52BAC3CF00011AC72 /* SyarahChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1A42BAC3CF00011AC72 /* SyarahChallengeApp.swift */; };
+		47A9E1A72BAC3CF00011AC72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1A62BAC3CF00011AC72 /* ContentView.swift */; };
+		47A9E1A92BAC3CF50011AC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A9E1A82BAC3CF50011AC72 /* Assets.xcassets */; };
+		47A9E1AC2BAC3CF50011AC72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A9E1AB2BAC3CF50011AC72 /* Preview Assets.xcassets */; };
+		47A9E1B62BAC3CF60011AC72 /* SyarahChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1B52BAC3CF60011AC72 /* SyarahChallengeTests.swift */; };
+		47A9E1C02BAC3CF60011AC72 /* SyarahChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1BF2BAC3CF60011AC72 /* SyarahChallengeUITests.swift */; };
+		47A9E1C22BAC3CF60011AC72 /* SyarahChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1C12BAC3CF60011AC72 /* SyarahChallengeUITestsLaunchTests.swift */; };
+		47A9E1D52BAC430E0011AC72 /* LoginUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1D42BAC430E0011AC72 /* LoginUIView.swift */; };
+		47A9E1D72BAC44C60011AC72 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1D62BAC44C60011AC72 /* HeaderView.swift */; };
+		47A9E1D92BAC44DA0011AC72 /* LoginFieldsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1D82BAC44DA0011AC72 /* LoginFieldsForm.swift */; };
+		47A9E1DD2BAC44FC0011AC72 /* AccountPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1DC2BAC44FC0011AC72 /* AccountPromptView.swift */; };
+		47A9E1E22BAC48150011AC72 /* RegisterUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1E12BAC48150011AC72 /* RegisterUIView.swift */; };
+		47A9E1E42BAC48EE0011AC72 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1E32BAC48EE0011AC72 /* CustomTextFieldView.swift */; };
+		47A9E1E82BAC50530011AC72 /* RegisterFieldsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1E72BAC50530011AC72 /* RegisterFieldsForm.swift */; };
+		47A9E1EA2BAC59C90011AC72 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1E92BAC59C90011AC72 /* ActionButtonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47A9E1B22BAC3CF60011AC72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A9E1992BAC3CF00011AC72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A9E1A02BAC3CF00011AC72;
+			remoteInfo = SyarahChallenge;
+		};
+		47A9E1BC2BAC3CF60011AC72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A9E1992BAC3CF00011AC72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A9E1A02BAC3CF00011AC72;
+			remoteInfo = SyarahChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47A9E1A12BAC3CF00011AC72 /* SyarahChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyarahChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A9E1A42BAC3CF00011AC72 /* SyarahChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyarahChallengeApp.swift; sourceTree = "<group>"; };
+		47A9E1A62BAC3CF00011AC72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47A9E1A82BAC3CF50011AC72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47A9E1AB2BAC3CF50011AC72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47A9E1B12BAC3CF60011AC72 /* SyarahChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyarahChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A9E1B52BAC3CF60011AC72 /* SyarahChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyarahChallengeTests.swift; sourceTree = "<group>"; };
+		47A9E1BB2BAC3CF60011AC72 /* SyarahChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyarahChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A9E1BF2BAC3CF60011AC72 /* SyarahChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyarahChallengeUITests.swift; sourceTree = "<group>"; };
+		47A9E1C12BAC3CF60011AC72 /* SyarahChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyarahChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47A9E1D42BAC430E0011AC72 /* LoginUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIView.swift; sourceTree = "<group>"; };
+		47A9E1D62BAC44C60011AC72 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		47A9E1D82BAC44DA0011AC72 /* LoginFieldsForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFieldsForm.swift; sourceTree = "<group>"; };
+		47A9E1DC2BAC44FC0011AC72 /* AccountPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPromptView.swift; sourceTree = "<group>"; };
+		47A9E1E12BAC48150011AC72 /* RegisterUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUIView.swift; sourceTree = "<group>"; };
+		47A9E1E32BAC48EE0011AC72 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
+		47A9E1E72BAC50530011AC72 /* RegisterFieldsForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFieldsForm.swift; sourceTree = "<group>"; };
+		47A9E1E92BAC59C90011AC72 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47A9E19E2BAC3CF00011AC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A9E1AE2BAC3CF60011AC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A9E1B82BAC3CF60011AC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47A9E1982BAC3CF00011AC72 = {
+			isa = PBXGroup;
+			children = (
+				47A9E1A32BAC3CF00011AC72 /* SyarahChallenge */,
+				47A9E1B42BAC3CF60011AC72 /* SyarahChallengeTests */,
+				47A9E1BE2BAC3CF60011AC72 /* SyarahChallengeUITests */,
+				47A9E1A22BAC3CF00011AC72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47A9E1A22BAC3CF00011AC72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1A12BAC3CF00011AC72 /* SyarahChallenge.app */,
+				47A9E1B12BAC3CF60011AC72 /* SyarahChallengeTests.xctest */,
+				47A9E1BB2BAC3CF60011AC72 /* SyarahChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47A9E1A32BAC3CF00011AC72 /* SyarahChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1D12BAC41410011AC72 /* Globals */,
+				47A9E1D02BAC412A0011AC72 /* Modules */,
+				47A9E1CF2BAC41210011AC72 /* Models */,
+				47A9E1A62BAC3CF00011AC72 /* ContentView.swift */,
+				47A9E1CE2BAC3E9A0011AC72 /* SupportingFiles */,
+				47A9E1AA2BAC3CF50011AC72 /* Preview Content */,
+			);
+			path = SyarahChallenge;
+			sourceTree = "<group>";
+		};
+		47A9E1AA2BAC3CF50011AC72 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1AB2BAC3CF50011AC72 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47A9E1B42BAC3CF60011AC72 /* SyarahChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1B52BAC3CF60011AC72 /* SyarahChallengeTests.swift */,
+			);
+			path = SyarahChallengeTests;
+			sourceTree = "<group>";
+		};
+		47A9E1BE2BAC3CF60011AC72 /* SyarahChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1BF2BAC3CF60011AC72 /* SyarahChallengeUITests.swift */,
+				47A9E1C12BAC3CF60011AC72 /* SyarahChallengeUITestsLaunchTests.swift */,
+			);
+			path = SyarahChallengeUITests;
+			sourceTree = "<group>";
+		};
+		47A9E1CE2BAC3E9A0011AC72 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1A42BAC3CF00011AC72 /* SyarahChallengeApp.swift */,
+				47A9E1A82BAC3CF50011AC72 /* Assets.xcassets */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		47A9E1CF2BAC41210011AC72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		47A9E1D02BAC412A0011AC72 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1E02BAC47630011AC72 /* CommonUIComponents */,
+				47A9E1DE2BAC47490011AC72 /* Register */,
+				47A9E1D22BAC42BC0011AC72 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		47A9E1D12BAC41410011AC72 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		47A9E1D22BAC42BC0011AC72 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1D32BAC42C70011AC72 /* UIComponents */,
+				47A9E1D42BAC430E0011AC72 /* LoginUIView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		47A9E1D32BAC42C70011AC72 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1D82BAC44DA0011AC72 /* LoginFieldsForm.swift */,
+				47A9E1DC2BAC44FC0011AC72 /* AccountPromptView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		47A9E1DE2BAC47490011AC72 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1DF2BAC47510011AC72 /* UIComponents */,
+				47A9E1E12BAC48150011AC72 /* RegisterUIView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		47A9E1DF2BAC47510011AC72 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1E72BAC50530011AC72 /* RegisterFieldsForm.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		47A9E1E02BAC47630011AC72 /* CommonUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1D62BAC44C60011AC72 /* HeaderView.swift */,
+				47A9E1E32BAC48EE0011AC72 /* CustomTextFieldView.swift */,
+				47A9E1E92BAC59C90011AC72 /* ActionButtonView.swift */,
+			);
+			path = CommonUIComponents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47A9E1A02BAC3CF00011AC72 /* SyarahChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A9E1C52BAC3CF60011AC72 /* Build configuration list for PBXNativeTarget "SyarahChallenge" */;
+			buildPhases = (
+				47A9E19D2BAC3CF00011AC72 /* Sources */,
+				47A9E19E2BAC3CF00011AC72 /* Frameworks */,
+				47A9E19F2BAC3CF00011AC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyarahChallenge;
+			productName = SyarahChallenge;
+			productReference = 47A9E1A12BAC3CF00011AC72 /* SyarahChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47A9E1B02BAC3CF60011AC72 /* SyarahChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A9E1C82BAC3CF60011AC72 /* Build configuration list for PBXNativeTarget "SyarahChallengeTests" */;
+			buildPhases = (
+				47A9E1AD2BAC3CF60011AC72 /* Sources */,
+				47A9E1AE2BAC3CF60011AC72 /* Frameworks */,
+				47A9E1AF2BAC3CF60011AC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47A9E1B32BAC3CF60011AC72 /* PBXTargetDependency */,
+			);
+			name = SyarahChallengeTests;
+			productName = SyarahChallengeTests;
+			productReference = 47A9E1B12BAC3CF60011AC72 /* SyarahChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47A9E1BA2BAC3CF60011AC72 /* SyarahChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A9E1CB2BAC3CF60011AC72 /* Build configuration list for PBXNativeTarget "SyarahChallengeUITests" */;
+			buildPhases = (
+				47A9E1B72BAC3CF60011AC72 /* Sources */,
+				47A9E1B82BAC3CF60011AC72 /* Frameworks */,
+				47A9E1B92BAC3CF60011AC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47A9E1BD2BAC3CF60011AC72 /* PBXTargetDependency */,
+			);
+			name = SyarahChallengeUITests;
+			productName = SyarahChallengeUITests;
+			productReference = 47A9E1BB2BAC3CF60011AC72 /* SyarahChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47A9E1992BAC3CF00011AC72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					47A9E1A02BAC3CF00011AC72 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					47A9E1B02BAC3CF60011AC72 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 47A9E1A02BAC3CF00011AC72;
+					};
+					47A9E1BA2BAC3CF60011AC72 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 47A9E1A02BAC3CF00011AC72;
+					};
+				};
+			};
+			buildConfigurationList = 47A9E19C2BAC3CF00011AC72 /* Build configuration list for PBXProject "SyarahChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47A9E1982BAC3CF00011AC72;
+			productRefGroup = 47A9E1A22BAC3CF00011AC72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47A9E1A02BAC3CF00011AC72 /* SyarahChallenge */,
+				47A9E1B02BAC3CF60011AC72 /* SyarahChallengeTests */,
+				47A9E1BA2BAC3CF60011AC72 /* SyarahChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47A9E19F2BAC3CF00011AC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A9E1AC2BAC3CF50011AC72 /* Preview Assets.xcassets in Resources */,
+				47A9E1A92BAC3CF50011AC72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A9E1AF2BAC3CF60011AC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A9E1B92BAC3CF60011AC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47A9E19D2BAC3CF00011AC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A9E1D52BAC430E0011AC72 /* LoginUIView.swift in Sources */,
+				47A9E1A72BAC3CF00011AC72 /* ContentView.swift in Sources */,
+				47A9E1D92BAC44DA0011AC72 /* LoginFieldsForm.swift in Sources */,
+				47A9E1A52BAC3CF00011AC72 /* SyarahChallengeApp.swift in Sources */,
+				47A9E1DD2BAC44FC0011AC72 /* AccountPromptView.swift in Sources */,
+				47A9E1E22BAC48150011AC72 /* RegisterUIView.swift in Sources */,
+				47A9E1EA2BAC59C90011AC72 /* ActionButtonView.swift in Sources */,
+				47A9E1D72BAC44C60011AC72 /* HeaderView.swift in Sources */,
+				47A9E1E42BAC48EE0011AC72 /* CustomTextFieldView.swift in Sources */,
+				47A9E1E82BAC50530011AC72 /* RegisterFieldsForm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A9E1AD2BAC3CF60011AC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A9E1B62BAC3CF60011AC72 /* SyarahChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A9E1B72BAC3CF60011AC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A9E1C22BAC3CF60011AC72 /* SyarahChallengeUITestsLaunchTests.swift in Sources */,
+				47A9E1C02BAC3CF60011AC72 /* SyarahChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47A9E1B32BAC3CF60011AC72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47A9E1A02BAC3CF00011AC72 /* SyarahChallenge */;
+			targetProxy = 47A9E1B22BAC3CF60011AC72 /* PBXContainerItemProxy */;
+		};
+		47A9E1BD2BAC3CF60011AC72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47A9E1A02BAC3CF00011AC72 /* SyarahChallenge */;
+			targetProxy = 47A9E1BC2BAC3CF60011AC72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47A9E1C32BAC3CF60011AC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47A9E1C42BAC3CF60011AC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47A9E1C62BAC3CF60011AC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SyarahChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = F9688795K2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.SyarahChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47A9E1C72BAC3CF60011AC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SyarahChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = F9688795K2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.SyarahChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47A9E1C92BAC3CF60011AC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9688795K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.SyarahChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyarahChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SyarahChallenge";
+			};
+			name = Debug;
+		};
+		47A9E1CA2BAC3CF60011AC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9688795K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.SyarahChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyarahChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SyarahChallenge";
+			};
+			name = Release;
+		};
+		47A9E1CC2BAC3CF60011AC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9688795K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.SyarahChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SyarahChallenge;
+			};
+			name = Debug;
+		};
+		47A9E1CD2BAC3CF60011AC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9688795K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.SyarahChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SyarahChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47A9E19C2BAC3CF00011AC72 /* Build configuration list for PBXProject "SyarahChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A9E1C32BAC3CF60011AC72 /* Debug */,
+				47A9E1C42BAC3CF60011AC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A9E1C52BAC3CF60011AC72 /* Build configuration list for PBXNativeTarget "SyarahChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A9E1C62BAC3CF60011AC72 /* Debug */,
+				47A9E1C72BAC3CF60011AC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A9E1C82BAC3CF60011AC72 /* Build configuration list for PBXNativeTarget "SyarahChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A9E1C92BAC3CF60011AC72 /* Debug */,
+				47A9E1CA2BAC3CF60011AC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A9E1CB2BAC3CF60011AC72 /* Build configuration list for PBXNativeTarget "SyarahChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A9E1CC2BAC3CF60011AC72 /* Debug */,
+				47A9E1CD2BAC3CF60011AC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47A9E1992BAC3CF00011AC72 /* Project object */;
+}
