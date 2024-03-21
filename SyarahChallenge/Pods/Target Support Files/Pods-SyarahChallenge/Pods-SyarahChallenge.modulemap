@@ -1,0 +1,6 @@
+framework module Pods_SyarahChallenge {
+  umbrella header "Pods-SyarahChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}

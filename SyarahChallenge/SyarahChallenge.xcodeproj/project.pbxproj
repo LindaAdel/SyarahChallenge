@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22FF468BD158EED209ED3F6B /* Pods_SyarahChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263B7E9953355BF5EF530B15 /* Pods_SyarahChallengeTests.framework */; };
 		47A9E1A52BAC3CF00011AC72 /* SyarahChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1A42BAC3CF00011AC72 /* SyarahChallengeApp.swift */; };
 		47A9E1A72BAC3CF00011AC72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1A62BAC3CF00011AC72 /* ContentView.swift */; };
 		47A9E1A92BAC3CF50011AC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A9E1A82BAC3CF50011AC72 /* Assets.xcassets */; };
@@ -22,6 +23,12 @@
 		47A9E1E42BAC48EE0011AC72 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1E32BAC48EE0011AC72 /* CustomTextFieldView.swift */; };
 		47A9E1E82BAC50530011AC72 /* RegisterFieldsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1E72BAC50530011AC72 /* RegisterFieldsForm.swift */; };
 		47A9E1EA2BAC59C90011AC72 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1E92BAC59C90011AC72 /* ActionButtonView.swift */; };
+		47A9E1EC2BAC608A0011AC72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A9E1EB2BAC608A0011AC72 /* GoogleService-Info.plist */; };
+		47A9E1EF2BAC70930011AC72 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1EE2BAC70930011AC72 /* FirebaseAuthManager.swift */; };
+		47A9E1F12BAC72FF0011AC72 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1F02BAC72FF0011AC72 /* LoginViewModel.swift */; };
+		47A9E1F32BAC74A50011AC72 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1F22BAC74A50011AC72 /* RegisterViewModel.swift */; };
+		78695D58908B037953C3E34F /* Pods_SyarahChallenge_SyarahChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FA4EF2F100EF6F3072AA1A /* Pods_SyarahChallenge_SyarahChallengeUITests.framework */; };
+		E780A0D6B6E8082BAEDA124E /* Pods_SyarahChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8668CC17C5B5999DB51F16B6 /* Pods_SyarahChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03EA9476F8D0AC83A23249FC /* Pods-SyarahChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyarahChallenge.release.xcconfig"; path = "Target Support Files/Pods-SyarahChallenge/Pods-SyarahChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		17FA4EF2F100EF6F3072AA1A /* Pods_SyarahChallenge_SyarahChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyarahChallenge_SyarahChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		263B7E9953355BF5EF530B15 /* Pods_SyarahChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyarahChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		300A930BE7072EB8C21A9E80 /* Pods-SyarahChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyarahChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-SyarahChallengeTests/Pods-SyarahChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45C77B1C36D42B48734A571F /* Pods-SyarahChallenge-SyarahChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyarahChallenge-SyarahChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-SyarahChallenge-SyarahChallengeUITests/Pods-SyarahChallenge-SyarahChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		47A9E1A12BAC3CF00011AC72 /* SyarahChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyarahChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A9E1A42BAC3CF00011AC72 /* SyarahChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyarahChallengeApp.swift; sourceTree = "<group>"; };
 		47A9E1A62BAC3CF00011AC72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +72,14 @@
 		47A9E1E32BAC48EE0011AC72 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
 		47A9E1E72BAC50530011AC72 /* RegisterFieldsForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFieldsForm.swift; sourceTree = "<group>"; };
 		47A9E1E92BAC59C90011AC72 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
+		47A9E1EB2BAC608A0011AC72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		47A9E1EE2BAC70930011AC72 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		47A9E1F02BAC72FF0011AC72 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		47A9E1F22BAC74A50011AC72 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		55BC1CFE475BF33ADD46132A /* Pods-SyarahChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyarahChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-SyarahChallengeTests/Pods-SyarahChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		62E4BF6FA27795A0D2AF1C5C /* Pods-SyarahChallenge-SyarahChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyarahChallenge-SyarahChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-SyarahChallenge-SyarahChallengeUITests/Pods-SyarahChallenge-SyarahChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8668CC17C5B5999DB51F16B6 /* Pods_SyarahChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyarahChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F46EC6426B8C76096E6DC1 /* Pods-SyarahChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyarahChallenge.debug.xcconfig"; path = "Target Support Files/Pods-SyarahChallenge/Pods-SyarahChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E780A0D6B6E8082BAEDA124E /* Pods_SyarahChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22FF468BD158EED209ED3F6B /* Pods_SyarahChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +103,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78695D58908B037953C3E34F /* Pods_SyarahChallenge_SyarahChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C852F81F49A4D25A3D6B201 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90F46EC6426B8C76096E6DC1 /* Pods-SyarahChallenge.debug.xcconfig */,
+				03EA9476F8D0AC83A23249FC /* Pods-SyarahChallenge.release.xcconfig */,
+				45C77B1C36D42B48734A571F /* Pods-SyarahChallenge-SyarahChallengeUITests.debug.xcconfig */,
+				62E4BF6FA27795A0D2AF1C5C /* Pods-SyarahChallenge-SyarahChallengeUITests.release.xcconfig */,
+				300A930BE7072EB8C21A9E80 /* Pods-SyarahChallengeTests.debug.xcconfig */,
+				55BC1CFE475BF33ADD46132A /* Pods-SyarahChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		47A9E1982BAC3CF00011AC72 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +130,8 @@
 				47A9E1B42BAC3CF60011AC72 /* SyarahChallengeTests */,
 				47A9E1BE2BAC3CF60011AC72 /* SyarahChallengeUITests */,
 				47A9E1A22BAC3CF00011AC72 /* Products */,
+				2C852F81F49A4D25A3D6B201 /* Pods */,
+				D713E8DBABE5CFE6CD367671 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +148,7 @@
 		47A9E1A32BAC3CF00011AC72 /* SyarahChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				47A9E1EB2BAC608A0011AC72 /* GoogleService-Info.plist */,
 				47A9E1D12BAC41410011AC72 /* Globals */,
 				47A9E1D02BAC412A0011AC72 /* Modules */,
 				47A9E1CF2BAC41210011AC72 /* Models */,
@@ -174,6 +213,7 @@
 		47A9E1D12BAC41410011AC72 /* Globals */ = {
 			isa = PBXGroup;
 			children = (
+				47A9E1ED2BAC707D0011AC72 /* Managers */,
 			);
 			path = Globals;
 			sourceTree = "<group>";
@@ -183,6 +223,7 @@
 			children = (
 				47A9E1D32BAC42C70011AC72 /* UIComponents */,
 				47A9E1D42BAC430E0011AC72 /* LoginUIView.swift */,
+				47A9E1F02BAC72FF0011AC72 /* LoginViewModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -201,6 +242,7 @@
 			children = (
 				47A9E1DF2BAC47510011AC72 /* UIComponents */,
 				47A9E1E12BAC48150011AC72 /* RegisterUIView.swift */,
+				47A9E1F22BAC74A50011AC72 /* RegisterViewModel.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -223,6 +265,24 @@
 			path = CommonUIComponents;
 			sourceTree = "<group>";
 		};
+		47A9E1ED2BAC707D0011AC72 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1EE2BAC70930011AC72 /* FirebaseAuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D713E8DBABE5CFE6CD367671 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8668CC17C5B5999DB51F16B6 /* Pods_SyarahChallenge.framework */,
+				17FA4EF2F100EF6F3072AA1A /* Pods_SyarahChallenge_SyarahChallengeUITests.framework */,
+				263B7E9953355BF5EF530B15 /* Pods_SyarahChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47A9E1C52BAC3CF60011AC72 /* Build configuration list for PBXNativeTarget "SyarahChallenge" */;
 			buildPhases = (
+				D63CBE433A3C279F43335674 /* [CP] Check Pods Manifest.lock */,
 				47A9E19D2BAC3CF00011AC72 /* Sources */,
 				47A9E19E2BAC3CF00011AC72 /* Frameworks */,
 				47A9E19F2BAC3CF00011AC72 /* Resources */,
+				0072D03E8922E1F2433D0F78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +309,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47A9E1C82BAC3CF60011AC72 /* Build configuration list for PBXNativeTarget "SyarahChallengeTests" */;
 			buildPhases = (
+				9CC97AC658A7DD07854F1170 /* [CP] Check Pods Manifest.lock */,
 				47A9E1AD2BAC3CF60011AC72 /* Sources */,
 				47A9E1AE2BAC3CF60011AC72 /* Frameworks */,
 				47A9E1AF2BAC3CF60011AC72 /* Resources */,
@@ -265,9 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47A9E1CB2BAC3CF60011AC72 /* Build configuration list for PBXNativeTarget "SyarahChallengeUITests" */;
 			buildPhases = (
+				20197FACB3AB8056762B3144 /* [CP] Check Pods Manifest.lock */,
 				47A9E1B72BAC3CF60011AC72 /* Sources */,
 				47A9E1B82BAC3CF60011AC72 /* Frameworks */,
 				47A9E1B92BAC3CF60011AC72 /* Resources */,
+				37F10442332637050855C0C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -328,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47A9E1AC2BAC3CF50011AC72 /* Preview Assets.xcassets in Resources */,
+				47A9E1EC2BAC608A0011AC72 /* GoogleService-Info.plist in Resources */,
 				47A9E1A92BAC3CF50011AC72 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +414,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0072D03E8922E1F2433D0F78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SyarahChallenge/Pods-SyarahChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SyarahChallenge/Pods-SyarahChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SyarahChallenge/Pods-SyarahChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20197FACB3AB8056762B3144 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SyarahChallenge-SyarahChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37F10442332637050855C0C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SyarahChallenge-SyarahChallengeUITests/Pods-SyarahChallenge-SyarahChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SyarahChallenge-SyarahChallengeUITests/Pods-SyarahChallenge-SyarahChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SyarahChallenge-SyarahChallengeUITests/Pods-SyarahChallenge-SyarahChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CC97AC658A7DD07854F1170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SyarahChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D63CBE433A3C279F43335674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SyarahChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47A9E19D2BAC3CF00011AC72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -360,6 +529,9 @@
 				47A9E1DD2BAC44FC0011AC72 /* AccountPromptView.swift in Sources */,
 				47A9E1E22BAC48150011AC72 /* RegisterUIView.swift in Sources */,
 				47A9E1EA2BAC59C90011AC72 /* ActionButtonView.swift in Sources */,
+				47A9E1EF2BAC70930011AC72 /* FirebaseAuthManager.swift in Sources */,
+				47A9E1F32BAC74A50011AC72 /* RegisterViewModel.swift in Sources */,
+				47A9E1F12BAC72FF0011AC72 /* LoginViewModel.swift in Sources */,
 				47A9E1D72BAC44C60011AC72 /* HeaderView.swift in Sources */,
 				47A9E1E42BAC48EE0011AC72 /* CustomTextFieldView.swift in Sources */,
 				47A9E1E82BAC50530011AC72 /* RegisterFieldsForm.swift in Sources */,
@@ -515,6 +687,7 @@
 		};
 		47A9E1C62BAC3CF60011AC72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F46EC6426B8C76096E6DC1 /* Pods-SyarahChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -544,6 +717,7 @@
 		};
 		47A9E1C72BAC3CF60011AC72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EA9476F8D0AC83A23249FC /* Pods-SyarahChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -573,6 +747,7 @@
 		};
 		47A9E1C92BAC3CF60011AC72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300A930BE7072EB8C21A9E80 /* Pods-SyarahChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -593,6 +768,7 @@
 		};
 		47A9E1CA2BAC3CF60011AC72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55BC1CFE475BF33ADD46132A /* Pods-SyarahChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -613,6 +789,7 @@
 		};
 		47A9E1CC2BAC3CF60011AC72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C77B1C36D42B48734A571F /* Pods-SyarahChallenge-SyarahChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -631,6 +808,7 @@
 		};
 		47A9E1CD2BAC3CF60011AC72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E4BF6FA27795A0D2AF1C5C /* Pods-SyarahChallenge-SyarahChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
