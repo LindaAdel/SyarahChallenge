@@ -12,8 +12,11 @@ class RegisterViewModel: ObservableObject {
     func createAUser(with email: String?, and password: String?, completion: @escaping ((Error?) -> Void)) {
         if let email = email , let password = password {
             FireBaseAuthManager.shared.createAUser(with: email, and: password) { error in
-                if let error = error {
+                if error != nil {
                     completion(error)
+                }else {
+                    print("register success")
+                    AnalyticsManager.shared.trackEvent(name: "signup", parameters: ["email":email])
                 }
             }
         }

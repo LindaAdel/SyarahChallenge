@@ -27,6 +27,15 @@
 		47A9E1EF2BAC70930011AC72 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1EE2BAC70930011AC72 /* FirebaseAuthManager.swift */; };
 		47A9E1F12BAC72FF0011AC72 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1F02BAC72FF0011AC72 /* LoginViewModel.swift */; };
 		47A9E1F32BAC74A50011AC72 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1F22BAC74A50011AC72 /* RegisterViewModel.swift */; };
+		47A9E1F52BADA2D40011AC72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1F42BADA2D40011AC72 /* AppDelegate.swift */; };
+		47A9E1F82BADAF820011AC72 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1F72BADAF820011AC72 /* AnalyticsService.swift */; };
+		47A9E1FB2BADAFDC0011AC72 /* FirebaseAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1FA2BADAFDC0011AC72 /* FirebaseAnalyticsService.swift */; };
+		47A9E1FD2BADB0E90011AC72 /* MixpanelAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1FC2BADB0E90011AC72 /* MixpanelAnalyticsService.swift */; };
+		47A9E2002BADB7CB0011AC72 /* ValueKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1FF2BADB7CB0011AC72 /* ValueKey.swift */; };
+		47A9E2022BADB8440011AC72 /* RemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2012BADB8440011AC72 /* RemoteConfigManager.swift */; };
+		47A9E2042BADC0930011AC72 /* CompositeAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2032BADC0930011AC72 /* CompositeAnalyticsService.swift */; };
+		47A9E2062BADC37F0011AC72 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2052BADC37F0011AC72 /* AnalyticsManager.swift */; };
+		47A9E20A2BADEB810011AC72 /* AmplitudeAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2092BADEB810011AC72 /* AmplitudeAnalyticsService.swift */; };
 		78695D58908B037953C3E34F /* Pods_SyarahChallenge_SyarahChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FA4EF2F100EF6F3072AA1A /* Pods_SyarahChallenge_SyarahChallengeUITests.framework */; };
 		E780A0D6B6E8082BAEDA124E /* Pods_SyarahChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8668CC17C5B5999DB51F16B6 /* Pods_SyarahChallenge.framework */; };
 /* End PBXBuildFile section */
@@ -76,6 +85,15 @@
 		47A9E1EE2BAC70930011AC72 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
 		47A9E1F02BAC72FF0011AC72 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		47A9E1F22BAC74A50011AC72 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		47A9E1F42BADA2D40011AC72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47A9E1F72BADAF820011AC72 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		47A9E1FA2BADAFDC0011AC72 /* FirebaseAnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalyticsService.swift; sourceTree = "<group>"; };
+		47A9E1FC2BADB0E90011AC72 /* MixpanelAnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixpanelAnalyticsService.swift; sourceTree = "<group>"; };
+		47A9E1FF2BADB7CB0011AC72 /* ValueKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueKey.swift; sourceTree = "<group>"; };
+		47A9E2012BADB8440011AC72 /* RemoteConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigManager.swift; sourceTree = "<group>"; };
+		47A9E2032BADC0930011AC72 /* CompositeAnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeAnalyticsService.swift; sourceTree = "<group>"; };
+		47A9E2052BADC37F0011AC72 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		47A9E2092BADEB810011AC72 /* AmplitudeAnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeAnalyticsService.swift; sourceTree = "<group>"; };
 		55BC1CFE475BF33ADD46132A /* Pods-SyarahChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyarahChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-SyarahChallengeTests/Pods-SyarahChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		62E4BF6FA27795A0D2AF1C5C /* Pods-SyarahChallenge-SyarahChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyarahChallenge-SyarahChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-SyarahChallenge-SyarahChallengeUITests/Pods-SyarahChallenge-SyarahChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8668CC17C5B5999DB51F16B6 /* Pods_SyarahChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyarahChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +205,7 @@
 		47A9E1CE2BAC3E9A0011AC72 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				47A9E1F42BADA2D40011AC72 /* AppDelegate.swift */,
 				47A9E1A42BAC3CF00011AC72 /* SyarahChallengeApp.swift */,
 				47A9E1A82BAC3CF50011AC72 /* Assets.xcassets */,
 			);
@@ -213,6 +232,9 @@
 		47A9E1D12BAC41410011AC72 /* Globals */ = {
 			isa = PBXGroup;
 			children = (
+				47A9E1FE2BADB7AF0011AC72 /* Enums */,
+				47A9E1F92BADAFC50011AC72 /* Analytics */,
+				47A9E1F62BADAF680011AC72 /* Protocols */,
 				47A9E1ED2BAC707D0011AC72 /* Managers */,
 			);
 			path = Globals;
@@ -269,8 +291,37 @@
 			isa = PBXGroup;
 			children = (
 				47A9E1EE2BAC70930011AC72 /* FirebaseAuthManager.swift */,
+				47A9E2012BADB8440011AC72 /* RemoteConfigManager.swift */,
+				47A9E2052BADC37F0011AC72 /* AnalyticsManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		47A9E1F62BADAF680011AC72 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1F72BADAF820011AC72 /* AnalyticsService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		47A9E1F92BADAFC50011AC72 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E2032BADC0930011AC72 /* CompositeAnalyticsService.swift */,
+				47A9E1FA2BADAFDC0011AC72 /* FirebaseAnalyticsService.swift */,
+				47A9E1FC2BADB0E90011AC72 /* MixpanelAnalyticsService.swift */,
+				47A9E2092BADEB810011AC72 /* AmplitudeAnalyticsService.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		47A9E1FE2BADB7AF0011AC72 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E1FF2BADB7CB0011AC72 /* ValueKey.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 		D713E8DBABE5CFE6CD367671 /* Frameworks */ = {
@@ -523,16 +574,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				47A9E1D52BAC430E0011AC72 /* LoginUIView.swift in Sources */,
+				47A9E2002BADB7CB0011AC72 /* ValueKey.swift in Sources */,
 				47A9E1A72BAC3CF00011AC72 /* ContentView.swift in Sources */,
 				47A9E1D92BAC44DA0011AC72 /* LoginFieldsForm.swift in Sources */,
+				47A9E1FB2BADAFDC0011AC72 /* FirebaseAnalyticsService.swift in Sources */,
 				47A9E1A52BAC3CF00011AC72 /* SyarahChallengeApp.swift in Sources */,
+				47A9E1F52BADA2D40011AC72 /* AppDelegate.swift in Sources */,
 				47A9E1DD2BAC44FC0011AC72 /* AccountPromptView.swift in Sources */,
 				47A9E1E22BAC48150011AC72 /* RegisterUIView.swift in Sources */,
 				47A9E1EA2BAC59C90011AC72 /* ActionButtonView.swift in Sources */,
 				47A9E1EF2BAC70930011AC72 /* FirebaseAuthManager.swift in Sources */,
+				47A9E1FD2BADB0E90011AC72 /* MixpanelAnalyticsService.swift in Sources */,
+				47A9E2042BADC0930011AC72 /* CompositeAnalyticsService.swift in Sources */,
+				47A9E2022BADB8440011AC72 /* RemoteConfigManager.swift in Sources */,
 				47A9E1F32BAC74A50011AC72 /* RegisterViewModel.swift in Sources */,
+				47A9E2062BADC37F0011AC72 /* AnalyticsManager.swift in Sources */,
 				47A9E1F12BAC72FF0011AC72 /* LoginViewModel.swift in Sources */,
+				47A9E1F82BADAF820011AC72 /* AnalyticsService.swift in Sources */,
 				47A9E1D72BAC44C60011AC72 /* HeaderView.swift in Sources */,
+				47A9E20A2BADEB810011AC72 /* AmplitudeAnalyticsService.swift in Sources */,
 				47A9E1E42BAC48EE0011AC72 /* CustomTextFieldView.swift in Sources */,
 				47A9E1E82BAC50530011AC72 /* RegisterFieldsForm.swift in Sources */,
 			);
@@ -697,6 +757,7 @@
 				DEVELOPMENT_TEAM = F9688795K2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SyarahChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -727,6 +788,7 @@
 				DEVELOPMENT_TEAM = F9688795K2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SyarahChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

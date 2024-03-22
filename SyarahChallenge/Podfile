@@ -6,6 +6,9 @@ target 'SyarahChallenge' do
   use_frameworks!
 pod 'FirebaseAnalytics'
 pod 'FirebaseAuth'
+pod 'Mixpanel-swift'
+pod 'FirebaseRemoteConfig'
+pod 'Amplitude'
 
   # Pods for SyarahChallenge
 
