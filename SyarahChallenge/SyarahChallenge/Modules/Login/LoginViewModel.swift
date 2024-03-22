@@ -9,14 +9,15 @@ import Foundation
 
 class LoginViewModel: ObservableObject {
     
-    func signInUser(with email: String?, and password: String?, completion: @escaping ((Error?) -> Void)) {
+    func signInUser(with email: String?, and password: String?, completion: @escaping ((Error?,Bool) -> Void)) {
         if let email = email , let password = password {
             FireBaseAuthManager.shared.signInUser(with: email, and: password) { error in
                 if error != nil {
-                    completion(error)
+                    completion(error,false)
                 }else {
                     print("login success")
                     AnalyticsManager.shared.trackEvent(name: "login", parameters: [:])
+                    completion(nil,true)
                 }
             }
         }

@@ -15,7 +15,7 @@ struct RegisterUIView: View {
     @State private var showingError = false
     @StateObject private var registerViewModel = RegisterViewModel()
     @Binding var show: Bool
-    
+    @State private var signedup = false
     @Namespace private var animation
     
     var body: some View {
@@ -35,6 +35,13 @@ struct RegisterUIView: View {
                     dismissButton: .default(Text("OK"))
                 )
             }
+            .background(
+                        NavigationLink(
+                            destination: ContentView(),
+                            isActive: $signedup,
+                            label: EmptyView.init
+                        )
+                    )
             
         .navigationBarHidden(true)
         .navigationBarBackButtonHidden(true)
@@ -42,10 +49,12 @@ struct RegisterUIView: View {
     }
     
   private func RegisterUser() {
-        registerViewModel.createAUser(with: email, and: password) { error in
-            if let error = error {
+        registerViewModel.createAUser(with: email, and: password) { error,success in
+            if !success, let error = error {
                 errorMessage = error.localizedDescription
                 showingError = true
+            }else {
+                signedup = true
             }
         }
     }

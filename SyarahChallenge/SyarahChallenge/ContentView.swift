@@ -15,6 +15,9 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
+        .onAppear{
+            AnalyticsManager.shared.trackEvent(name: "homeAppeared", parameters: [:])
+        }
         .padding()
     }
 }

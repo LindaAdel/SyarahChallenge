@@ -15,6 +15,8 @@ struct LoginUIView: View {
     @State private var errorMessage = ""
     @State private var showingError = false
     @StateObject private var loginViewModel = LoginViewModel()
+    @State private var loggedIn = false
+    
     var body: some View {
         VStack {
             Spacer()
@@ -31,14 +33,23 @@ struct LoginUIView: View {
                 dismissButton: .default(Text("OK"))
             )
         }
+        .background(
+                    NavigationLink(
+                        destination: ContentView(),
+                        isActive: $loggedIn,
+                        label: EmptyView.init
+                    )
+                )
         
     }
     
     private func LoginUser() {
-        loginViewModel.signInUser(with: email, and: password) { error in
-              if let error = error {
+        loginViewModel.signInUser(with: email, and: password) { error,success  in
+              if !success , let error = error {
                   errorMessage = error.localizedDescription
                   showingError = true
+              } else {
+                  loggedIn = true
               }
           }
       }

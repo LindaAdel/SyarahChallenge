@@ -12,7 +12,10 @@ struct ActionButtonView: View {
     var action: () -> Void
     
     var body: some View {
-        Button(action: action) {
+        Button(action: {
+            action()
+            AnalyticsManager.shared.trackEvent(name: "buttonClicked", parameters: ["title":title])
+        }) {
             Text(title)
                 .fontWeight(.heavy)
         }
