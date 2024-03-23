@@ -101,6 +101,7 @@ The app utilizes the following dependencies managed by CocoaPods:
 - FirebaseAuth: Provides user authentication and authorization capabilities using Firebase.
 - Mixpanel-swift: Allows integration with Mixpanel for advanced analytics and user behavior tracking.
 - FirebaseRemoteConfig: Handles dynamic configuration by fetchingvalues from Firebase Remote Config.
+- Alamofire: A Swift-based HTTP networking library for making network requests.
 
 ---
 
