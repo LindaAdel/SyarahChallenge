@@ -1,6 +1,6 @@
-# MyApp
+# challenge App
 
-MyApp is an iOS app built with the MVVM (Model-View-ViewModel) architecture pattern. It leverages various analytics services to provide a personalized and data-driven user experience. The app also utilizes the Composite Strategy pattern to handle multiple analytics providers.
+challenge App is an iOS app built with the MVVM (Model-View-ViewModel) architecture pattern. It leverages various analytics services to provide a personalized and data-driven user experience. The app also utilizes the Composite Strategy pattern to handle multiple analytics providers.
 also the app consist of 3 screens login , signup and home the ui is made using swift ui . it has multpile events like user_login , user_signup , categorie_selected and button_clicked.
 
 ---
@@ -74,6 +74,22 @@ The app includes support for multiple analytics services, including Firebase Ana
 The app includes a RemoteConfig class that serves as a shared instance for fetching remote configuration values from Firebase Remote Config. It handles retrieving the configuration values and updating the app's behavior based on those values.
 
 The CompositeAnalyticsProvider class is responsible for handling the composite strategy for analytics tracking. It utilizes the Composite Strategy pattern to combine the analytics services (Firebase Analytics, Amplitude, and Mixpanel) and provides a unified interface for tracking events and user properties.
+
+---
+# Dependency Injection
+The app uses dependency injection to manage dependencies between components. It utilizes a property wrapper @Inject annotation and a DI container with an assembler.
+
+Property Wrapper @Inject: The @Inject property wrapper is used to mark dependencies that need to be injected into the components. By using @Inject, the dependencies are automatically resolved and provided to the component.
+
+DI Container and Assembler: The DI container is responsible for managing the lifecycle of dependencies and providing them when needed. The assembler is used to configure the DI container by registering dependencies and their respective implementations.
+
+The DI container and assembler implementation can be found in the DIContainer and Assembler files.
+
+---
+# Combine
+The app uses Combine for data transport and asynchronous operations. Combine allows you to handle asynchronous events, such as network requests and data updates, in a declarative manner. It provides a wide range of operators and features for reactive programming.
+
+You can find examples of using Combine in the app's codebase, particularly in the interaction between the interactor and the repository for fetching and processing data.
 
 ---
 
