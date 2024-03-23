@@ -1,8 +1,8 @@
 //
 //  AppConfiguration.swift
-//  ShoppingStore
+//  SyarahChallenge
 //
-//  Created by Linda adel on 12/11/2023.
+//  Created by Linda adel on 23/03/2024.
 //
 
 import Foundation
