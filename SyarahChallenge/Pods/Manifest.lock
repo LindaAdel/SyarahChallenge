@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.8.0)
   - Amplitude (8.18.2):
     - AnalyticsConnector (~> 1.0.0)
   - AnalyticsConnector (1.0.3)
@@ -103,6 +104,7 @@ PODS:
   - RecaptchaInterop (100.0.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Amplitude
   - FirebaseAnalytics
   - FirebaseAuth
@@ -111,6 +113,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - Amplitude
     - AnalyticsConnector
     - FirebaseABTesting
@@ -132,6 +135,7 @@ SPEC REPOS:
     - RecaptchaInterop
 
 SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
   Amplitude: 3ce739238c2e84a4ba0f55a483258eeede4266fa
   AnalyticsConnector: a53214d38ae22734c6266106c0492b37832633a9
   FirebaseABTesting: aec61ed9a34d85a95e2013a3fdf051426a2419df
@@ -152,6 +156,6 @@ SPEC CHECKSUMS:
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: e5e4b87f3ba73d8815552a678dfc4bbe8e24d77f
+PODFILE CHECKSUM: 780c72cfee70cc32064a0f227b1a4bd74c3863b8
 
 COCOAPODS: 1.12.1

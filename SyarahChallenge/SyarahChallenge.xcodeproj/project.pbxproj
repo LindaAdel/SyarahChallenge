@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		22FF468BD158EED209ED3F6B /* Pods_SyarahChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263B7E9953355BF5EF530B15 /* Pods_SyarahChallengeTests.framework */; };
 		47A9E1A52BAC3CF00011AC72 /* SyarahChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1A42BAC3CF00011AC72 /* SyarahChallengeApp.swift */; };
-		47A9E1A72BAC3CF00011AC72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1A62BAC3CF00011AC72 /* ContentView.swift */; };
 		47A9E1A92BAC3CF50011AC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A9E1A82BAC3CF50011AC72 /* Assets.xcassets */; };
 		47A9E1AC2BAC3CF50011AC72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A9E1AB2BAC3CF50011AC72 /* Preview Assets.xcassets */; };
 		47A9E1B62BAC3CF60011AC72 /* SyarahChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E1B52BAC3CF60011AC72 /* SyarahChallengeTests.swift */; };
@@ -36,6 +35,20 @@
 		47A9E2042BADC0930011AC72 /* CompositeAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2032BADC0930011AC72 /* CompositeAnalyticsService.swift */; };
 		47A9E2062BADC37F0011AC72 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2052BADC37F0011AC72 /* AnalyticsManager.swift */; };
 		47A9E20A2BADEB810011AC72 /* AmplitudeAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2092BADEB810011AC72 /* AmplitudeAnalyticsService.swift */; };
+		47A9E24B2BAE4F760011AC72 /* CategoriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2422BAE4F760011AC72 /* CategoriesRepository.swift */; };
+		47A9E24C2BAE4F760011AC72 /* CategoriesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2452BAE4F760011AC72 /* CategoriesRouter.swift */; };
+		47A9E24D2BAE4F760011AC72 /* CategoriesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2462BAE4F760011AC72 /* CategoriesAPI.swift */; };
+		47A9E24E2BAE4F760011AC72 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2492BAE4F760011AC72 /* BaseAPI.swift */; };
+		47A9E24F2BAE4F760011AC72 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E24A2BAE4F760011AC72 /* BaseRouter.swift */; };
+		47A9E2542BAE4F810011AC72 /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2512BAE4F810011AC72 /* Inject.swift */; };
+		47A9E2552BAE4F810011AC72 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2522BAE4F810011AC72 /* Assembler.swift */; };
+		47A9E2562BAE4F810011AC72 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2532BAE4F810011AC72 /* DIContainer.swift */; };
+		47A9E2582BAE4F8C0011AC72 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2572BAE4F8C0011AC72 /* APIError.swift */; };
+		47A9E25A2BAE4F970011AC72 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2592BAE4F970011AC72 /* NetworkManager.swift */; };
+		47A9E25C2BAE4FAE0011AC72 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E25B2BAE4FAE0011AC72 /* AppConfiguration.swift */; };
+		47A9E2602BAE500A0011AC72 /* CategoriesAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E25F2BAE500A0011AC72 /* CategoriesAssembler.swift */; };
+		47A9E2632BAE50170011AC72 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2612BAE50160011AC72 /* CategoriesViewModel.swift */; };
+		47A9E2642BAE50170011AC72 /* CategoriesListUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9E2622BAE50170011AC72 /* CategoriesListUIView.swift */; };
 		78695D58908B037953C3E34F /* Pods_SyarahChallenge_SyarahChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FA4EF2F100EF6F3072AA1A /* Pods_SyarahChallenge_SyarahChallengeUITests.framework */; };
 		E780A0D6B6E8082BAEDA124E /* Pods_SyarahChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8668CC17C5B5999DB51F16B6 /* Pods_SyarahChallenge.framework */; };
 /* End PBXBuildFile section */
@@ -65,7 +78,6 @@
 		45C77B1C36D42B48734A571F /* Pods-SyarahChallenge-SyarahChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyarahChallenge-SyarahChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-SyarahChallenge-SyarahChallengeUITests/Pods-SyarahChallenge-SyarahChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		47A9E1A12BAC3CF00011AC72 /* SyarahChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyarahChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A9E1A42BAC3CF00011AC72 /* SyarahChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyarahChallengeApp.swift; sourceTree = "<group>"; };
-		47A9E1A62BAC3CF00011AC72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47A9E1A82BAC3CF50011AC72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47A9E1AB2BAC3CF50011AC72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		47A9E1B12BAC3CF60011AC72 /* SyarahChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyarahChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +106,20 @@
 		47A9E2032BADC0930011AC72 /* CompositeAnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeAnalyticsService.swift; sourceTree = "<group>"; };
 		47A9E2052BADC37F0011AC72 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		47A9E2092BADEB810011AC72 /* AmplitudeAnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeAnalyticsService.swift; sourceTree = "<group>"; };
+		47A9E2422BAE4F760011AC72 /* CategoriesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesRepository.swift; sourceTree = "<group>"; };
+		47A9E2452BAE4F760011AC72 /* CategoriesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesRouter.swift; sourceTree = "<group>"; };
+		47A9E2462BAE4F760011AC72 /* CategoriesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesAPI.swift; sourceTree = "<group>"; };
+		47A9E2492BAE4F760011AC72 /* BaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		47A9E24A2BAE4F760011AC72 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		47A9E2512BAE4F810011AC72 /* Inject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
+		47A9E2522BAE4F810011AC72 /* Assembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
+		47A9E2532BAE4F810011AC72 /* DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		47A9E2572BAE4F8C0011AC72 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		47A9E2592BAE4F970011AC72 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		47A9E25B2BAE4FAE0011AC72 /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		47A9E25F2BAE500A0011AC72 /* CategoriesAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesAssembler.swift; sourceTree = "<group>"; };
+		47A9E2612BAE50160011AC72 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		47A9E2622BAE50170011AC72 /* CategoriesListUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListUIView.swift; sourceTree = "<group>"; };
 		55BC1CFE475BF33ADD46132A /* Pods-SyarahChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyarahChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-SyarahChallengeTests/Pods-SyarahChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		62E4BF6FA27795A0D2AF1C5C /* Pods-SyarahChallenge-SyarahChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyarahChallenge-SyarahChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-SyarahChallenge-SyarahChallengeUITests/Pods-SyarahChallenge-SyarahChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8668CC17C5B5999DB51F16B6 /* Pods_SyarahChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyarahChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,10 +193,10 @@
 			isa = PBXGroup;
 			children = (
 				47A9E1EB2BAC608A0011AC72 /* GoogleService-Info.plist */,
+				47A9E2402BAE4F760011AC72 /* DataLayer */,
 				47A9E1D12BAC41410011AC72 /* Globals */,
 				47A9E1D02BAC412A0011AC72 /* Modules */,
 				47A9E1CF2BAC41210011AC72 /* Models */,
-				47A9E1A62BAC3CF00011AC72 /* ContentView.swift */,
 				47A9E1CE2BAC3E9A0011AC72 /* SupportingFiles */,
 				47A9E1AA2BAC3CF50011AC72 /* Preview Content */,
 			);
@@ -205,6 +231,7 @@
 		47A9E1CE2BAC3E9A0011AC72 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				47A9E25B2BAE4FAE0011AC72 /* AppConfiguration.swift */,
 				47A9E1F42BADA2D40011AC72 /* AppDelegate.swift */,
 				47A9E1A42BAC3CF00011AC72 /* SyarahChallengeApp.swift */,
 				47A9E1A82BAC3CF50011AC72 /* Assets.xcassets */,
@@ -223,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				47A9E1E02BAC47630011AC72 /* CommonUIComponents */,
+				47A9E25D2BAE4FBE0011AC72 /* ProductsCategories */,
 				47A9E1DE2BAC47490011AC72 /* Register */,
 				47A9E1D22BAC42BC0011AC72 /* Login */,
 			);
@@ -232,6 +260,7 @@
 		47A9E1D12BAC41410011AC72 /* Globals */ = {
 			isa = PBXGroup;
 			children = (
+				47A9E2502BAE4F810011AC72 /* DI */,
 				47A9E1FE2BADB7AF0011AC72 /* Enums */,
 				47A9E1F92BADAFC50011AC72 /* Analytics */,
 				47A9E1F62BADAF680011AC72 /* Protocols */,
@@ -290,6 +319,7 @@
 		47A9E1ED2BAC707D0011AC72 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				47A9E2592BAE4F970011AC72 /* NetworkManager.swift */,
 				47A9E1EE2BAC70930011AC72 /* FirebaseAuthManager.swift */,
 				47A9E2012BADB8440011AC72 /* RemoteConfigManager.swift */,
 				47A9E2052BADC37F0011AC72 /* AnalyticsManager.swift */,
@@ -319,9 +349,92 @@
 		47A9E1FE2BADB7AF0011AC72 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				47A9E2572BAE4F8C0011AC72 /* APIError.swift */,
 				47A9E1FF2BADB7CB0011AC72 /* ValueKey.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		47A9E2402BAE4F760011AC72 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E2412BAE4F760011AC72 /* ProductsCategories */,
+				47A9E2472BAE4F760011AC72 /* Base */,
+			);
+			name = DataLayer;
+			path = ../../../ShoppingStore/ShoppingStore/DataLayer;
+			sourceTree = "<group>";
+		};
+		47A9E2412BAE4F760011AC72 /* ProductsCategories */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E2422BAE4F760011AC72 /* CategoriesRepository.swift */,
+				47A9E2432BAE4F760011AC72 /* Local */,
+				47A9E2442BAE4F760011AC72 /* Remote */,
+			);
+			path = ProductsCategories;
+			sourceTree = "<group>";
+		};
+		47A9E2432BAE4F760011AC72 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		47A9E2442BAE4F760011AC72 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E2452BAE4F760011AC72 /* CategoriesRouter.swift */,
+				47A9E2462BAE4F760011AC72 /* CategoriesAPI.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		47A9E2472BAE4F760011AC72 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E2482BAE4F760011AC72 /* Remote */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		47A9E2482BAE4F760011AC72 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E2492BAE4F760011AC72 /* BaseAPI.swift */,
+				47A9E24A2BAE4F760011AC72 /* BaseRouter.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		47A9E2502BAE4F810011AC72 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E2512BAE4F810011AC72 /* Inject.swift */,
+				47A9E2522BAE4F810011AC72 /* Assembler.swift */,
+				47A9E2532BAE4F810011AC72 /* DIContainer.swift */,
+			);
+			name = DI;
+			path = ../../../../ShoppingStore/ShoppingStore/Global/DI;
+			sourceTree = "<group>";
+		};
+		47A9E25D2BAE4FBE0011AC72 /* ProductsCategories */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E25E2BAE4FE80011AC72 /* Assemblies */,
+				47A9E2622BAE50170011AC72 /* CategoriesListUIView.swift */,
+				47A9E2612BAE50160011AC72 /* CategoriesViewModel.swift */,
+			);
+			path = ProductsCategories;
+			sourceTree = "<group>";
+		};
+		47A9E25E2BAE4FE80011AC72 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				47A9E25F2BAE500A0011AC72 /* CategoriesAssembler.swift */,
+			);
+			path = Assemblies;
 			sourceTree = "<group>";
 		};
 		D713E8DBABE5CFE6CD367671 /* Frameworks */ = {
@@ -573,28 +686,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47A9E2542BAE4F810011AC72 /* Inject.swift in Sources */,
 				47A9E1D52BAC430E0011AC72 /* LoginUIView.swift in Sources */,
 				47A9E2002BADB7CB0011AC72 /* ValueKey.swift in Sources */,
-				47A9E1A72BAC3CF00011AC72 /* ContentView.swift in Sources */,
+				47A9E24D2BAE4F760011AC72 /* CategoriesAPI.swift in Sources */,
 				47A9E1D92BAC44DA0011AC72 /* LoginFieldsForm.swift in Sources */,
 				47A9E1FB2BADAFDC0011AC72 /* FirebaseAnalyticsService.swift in Sources */,
 				47A9E1A52BAC3CF00011AC72 /* SyarahChallengeApp.swift in Sources */,
 				47A9E1F52BADA2D40011AC72 /* AppDelegate.swift in Sources */,
 				47A9E1DD2BAC44FC0011AC72 /* AccountPromptView.swift in Sources */,
+				47A9E2582BAE4F8C0011AC72 /* APIError.swift in Sources */,
+				47A9E24C2BAE4F760011AC72 /* CategoriesRouter.swift in Sources */,
+				47A9E24F2BAE4F760011AC72 /* BaseRouter.swift in Sources */,
 				47A9E1E22BAC48150011AC72 /* RegisterUIView.swift in Sources */,
 				47A9E1EA2BAC59C90011AC72 /* ActionButtonView.swift in Sources */,
+				47A9E24B2BAE4F760011AC72 /* CategoriesRepository.swift in Sources */,
 				47A9E1EF2BAC70930011AC72 /* FirebaseAuthManager.swift in Sources */,
 				47A9E1FD2BADB0E90011AC72 /* MixpanelAnalyticsService.swift in Sources */,
 				47A9E2042BADC0930011AC72 /* CompositeAnalyticsService.swift in Sources */,
 				47A9E2022BADB8440011AC72 /* RemoteConfigManager.swift in Sources */,
+				47A9E2602BAE500A0011AC72 /* CategoriesAssembler.swift in Sources */,
+				47A9E25A2BAE4F970011AC72 /* NetworkManager.swift in Sources */,
 				47A9E1F32BAC74A50011AC72 /* RegisterViewModel.swift in Sources */,
 				47A9E2062BADC37F0011AC72 /* AnalyticsManager.swift in Sources */,
 				47A9E1F12BAC72FF0011AC72 /* LoginViewModel.swift in Sources */,
+				47A9E2562BAE4F810011AC72 /* DIContainer.swift in Sources */,
 				47A9E1F82BADAF820011AC72 /* AnalyticsService.swift in Sources */,
+				47A9E2632BAE50170011AC72 /* CategoriesViewModel.swift in Sources */,
+				47A9E2552BAE4F810011AC72 /* Assembler.swift in Sources */,
+				47A9E25C2BAE4FAE0011AC72 /* AppConfiguration.swift in Sources */,
 				47A9E1D72BAC44C60011AC72 /* HeaderView.swift in Sources */,
 				47A9E20A2BADEB810011AC72 /* AmplitudeAnalyticsService.swift in Sources */,
+				47A9E2642BAE50170011AC72 /* CategoriesListUIView.swift in Sources */,
 				47A9E1E42BAC48EE0011AC72 /* CustomTextFieldView.swift in Sources */,
 				47A9E1E82BAC50530011AC72 /* RegisterFieldsForm.swift in Sources */,
+				47A9E24E2BAE4F760011AC72 /* BaseAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

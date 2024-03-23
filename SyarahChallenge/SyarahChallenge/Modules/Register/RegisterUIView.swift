@@ -37,7 +37,7 @@ struct RegisterUIView: View {
             }
             .background(
                         NavigationLink(
-                            destination: ContentView(),
+                            destination: CategoriesListUIView.configureView(),
                             isActive: $signedup,
                             label: EmptyView.init
                         )

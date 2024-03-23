@@ -16,7 +16,7 @@ class RegisterViewModel: ObservableObject {
                     completion(error,false)
                 }else {
                     print("register success")
-                    AnalyticsManager.shared.trackEvent(name: "signup", parameters: ["email":email])
+                    AnalyticsManager.shared.trackEvent(name: "user_signup", parameters: ["email":email])
                     completion(nil,true)
                 }
             }

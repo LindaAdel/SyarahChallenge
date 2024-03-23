@@ -35,7 +35,7 @@ struct LoginUIView: View {
         }
         .background(
                     NavigationLink(
-                        destination: ContentView(),
+                        destination: CategoriesListUIView.configureView(),
                         isActive: $loggedIn,
                         label: EmptyView.init
                     )

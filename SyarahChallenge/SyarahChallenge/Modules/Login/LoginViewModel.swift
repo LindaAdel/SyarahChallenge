@@ -16,7 +16,7 @@ class LoginViewModel: ObservableObject {
                     completion(error,false)
                 }else {
                     print("login success")
-                    AnalyticsManager.shared.trackEvent(name: "login", parameters: [:])
+                    AnalyticsManager.shared.trackEvent(name: "user_login", parameters: [:])
                     completion(nil,true)
                 }
             }
